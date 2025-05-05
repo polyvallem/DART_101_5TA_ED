@@ -49,6 +49,7 @@ Con este repositorio debes ser capaz de aprender los fundamentos básicos de la 
 ## 🍴 ¿Cómo hacer un "fork" del repositorio?
 
 1. Abre el repositorio original del curso en GitHub.
+    > [Repositorio del curso](https://github.com/RicharC293/DART_101_5TA_ED)
 2. Haz clic en el botón **"Fork"** (en la parte superior derecha).
 3. Selecciona tu cuenta personal de GitHub.  
 4. GitHub creará una copia del repositorio en tu perfil.
@@ -92,6 +93,8 @@ Para hacerlo desde GitHub:
 1. Entra a tu repositorio (el que está en tu cuenta).
 2. Verás un mensaje como este arriba:  
    > *"This branch is X commits behind usuario-original:main."*
+   o en español:
+    > *"Esta rama está X confirmaciones detrás de usuario-original:main."*
 3. Haz clic en **"Sync fork"** o **"Fetch upstream"**.
 4. Luego presiona **"Update branch"**.
 5. ¡Listo! Ya tienes las actualizaciones más recientes del curso.
@@ -103,7 +106,7 @@ Para hacerlo desde GitHub:
 ## ✍️ ¿Cómo entregar una tarea?
 
 1. Revisa la carpeta `TAREAS`. Ahí encontrarás el archivo de la tarea.
-2. Copia el **nombre exacto** de la tarea, por ejemplo `tarea1.dart`.
+2. Copia el **nombre exacto** de la tarea, por ejemplo `tarea_1.dart`.
 3. Crea un archivo con ese mismo nombre dentro de la carpeta `ESTUDIANTE`.
 4. Escribe tu solución.
 
@@ -113,8 +116,8 @@ Para hacerlo desde GitHub:
 6. Abre tu terminal y escribe estos comandos:
 
 ```bash
-git add ESTUDIANTE/tarea1.dart
-git commit -m "Agrega tarea1"
+git add ESTUDIANTE/tarea_1.dart
+git commit -m "Agrega tarea 1"
 git push origin main
 ```
 
