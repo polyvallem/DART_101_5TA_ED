@@ -155,7 +155,6 @@ void main() {
   // No usar el last 
 
   /// Mapas Ejemplo práctico
-  /// Sucursales - Producto ofrece cada uno
-
+  /// Sucursales - Producto ofrece cada unoa
 
 }
