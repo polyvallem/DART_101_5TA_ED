@@ -72,4 +72,85 @@ void main() {
   /// 1.- CONSOLA IMPRIMA "MI NOMBRE ES vARIABLE Y TENGO VARIABLE"
   /// 2.- USAR el double.parse pero en lugar de guardar "10.1" ("Pepito")
   /// 3.- Como puedo resolver eso? -> Pista double.tryParse
+
+  ///07/05/2025
+  //Boleano 1 0 - true o false
+  // sirve para realizar condiciones logicas para estructuras de control
+  // para declarar un buleano se utiliza la frase reservada bool
+  // true y false son palabras reservadas
+  // todas las variables siempre en camelcase
+
+  bool miPrimerBoleano = true;
+  print(miPrimerBoleano);
+
+  bool _isLoading = true;
+  // pasa algo - pasa un tiempo
+  _isLoading = false;
+  print(_isLoading);
+
+  // _ que hace
+  // guion bajo antes de una variable crea una variable de tipo reservado propia
+
+  /// Listas
+  /// me falta comprar leche, arroz, azucar, panes
+  String a = "Leche";
+  String b = "Arroz";
+  String c = "azucar";
+  String d = "panes";
+
+  //Listas
+  //las listas se crean (los elementos de las listas)
+  //Como se declara una lista
+  // List<Tipo de dato> nombreVariable = [los elementos]
+
+  List<String> Compras = ["leche", "arroz", "azucar", "panes"];
+  List<String> Compras2 = [a, b, c, d];
+  print(Compras2);
+  print(Compras);
+
+  //Lista de precios 1.25 3.25 1 3 2
+  double precio1 = 1.25;
+  double precio2 = 3.25;
+  double precio3 = 1;
+  double precio4 = 3;
+  double precio5 = 2;
+  List<double> precios = [precio1, precio2, precio3, precio4, precio5];
+  print(precios);
+
+  //lista 1.25 1 sol true, quiero que sea el mismo tipo de variable
+  //List<var>
+  //List<int,double,string,bool>
+  //sin declarar es la solucion
+  var listaX = [1.25, 1, "sol", true];
+  List<dynamic> listay = [1.25, 1, "Sol", true];
+  print(listaX);
+  final listaz = [1.25, 1, "sol", true];
+  print(listay);
+  print(listaz);
+
+  //Que podemos hacer con las listas?
+  print(listaz);
+  // add se puede agregarelementos a la lista
+  listaz.add("casa");
+  print(listaz);
+
+  //Puede acceder a un valor en especifico
+  //Posiciones
+  //[1.25,1,Sol,true, casa]
+  //   0  1  2   3     4
+  print(listaz[2]);
+  // como saber que posicion es?
+  //listaz.firstWhere(test); callback funciones - true
+
+  //longitud de la lista
+  print(listaz.length);
+
+  //tarea 2
+  // Crear una lista de lo que sea
+  // imprimir el ultimo valor de la lista, sin usar posiciones queadas
+  //listaz(5)
+  //[1,2,3,4,5] -> 5
+  //[1,2,3,4,5,6,7] -> 7
+  //No usar el last
+  //
 }
